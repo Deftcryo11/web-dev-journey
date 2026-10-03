@@ -1,0 +1,107 @@
+header {
+    background-color: #928c8c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;     
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero{
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 20px;   
+}
+
+.view-menu {
+    padding: 10px 20px;
+    background-color: #020000;
+    color: #f8f8f8;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.view-menu:hover {
+    background-color: #333;
+}
+
+.view-menu:active {
+    background-color: #857d7d;
+}
+
+section.menu {
+    padding: 20px;
+    text-align: center;
+}
+
+section.menu article {
+    margin: 20px;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    background-color: #0a6ca54f;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.about {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #928c8c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+            flex-direction: column;
+        }
+
+    .menu-cards {
+            flex-direction: column;
+        }
+}
