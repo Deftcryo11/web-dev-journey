@@ -108,3 +108,29 @@ footer {
 .about h2, .projects h2, .contact h2 {
     margin-bottom: 15px;
 }
+
+.project-link {
+    padding: 10px 20px;
+    background-color: #020000;
+    color: #f8f8f8;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.project-link:hover {
+    background-color: #858484;
+}
+
+.project-link:active {
+    background-color: #3a3737;
+}
+
+.project-cards article p {
+    margin-bottom: 15px;
+}
+
+.placeholder-link {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
